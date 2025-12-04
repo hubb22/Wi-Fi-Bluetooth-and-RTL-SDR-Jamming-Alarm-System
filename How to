@@ -2,7 +2,7 @@
 
 You need:
 
-1) Debian without GUI: https://www.debian.org
+1) Debian 13 without GUI: https://www.debian.org
    
 2) BalenaEtcher (https://www.balena.io/etcher) or 'dd command' to create a bootable USB:
     $diskutil list
