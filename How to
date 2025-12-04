@@ -78,8 +78,7 @@ auto eno1
 iface eno1  inet static
  address YOUR_DESIRED_STATIC_IP_ADDRESS_GOES_HERE
  netmask 255.255.255.0
-# YOUR ROUTER IP ADDRESS:
- gateway 192.168.1.1
+ gateway YOUR_ROUTER_IP_ADDRESS
  dns-domain sweet.home
  dns-nameservers 9.9.9.9 149.112.112.112
 
