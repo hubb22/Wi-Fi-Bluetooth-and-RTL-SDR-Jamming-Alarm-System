@@ -76,7 +76,7 @@ iface lo inet loopback
 # The primary network interface
 auto eno1
 iface eno1  inet static
- address YOUR_DESIRED_STATIC_IP_ADDRESS_GOES_HERE
+ address YOUR_DESIRED_STATIC_IP_ADDRESS
  netmask 255.255.255.0
  gateway YOUR_ROUTER_IP_ADDRESS
  dns-domain sweet.home
