@@ -1,6 +1,6 @@
 # Wi-Fi, Bluetooth and RTL-SDR Jamming Alarm System
 
-<img width="1920" height="1055" alt="Jamming Detector" src="https://github.com/user-attachments/assets/911af8a8-eda4-4a39-86a0-9d26a3cc158f" />
+<img style="margin-bottom:20px!important;" width="1920" height="1055" alt="Jamming Detector" src="https://github.com/user-attachments/assets/911af8a8-eda4-4a39-86a0-9d26a3cc158f" />
 
 Software used for this project:
 1) Kismet (https://www.kismetwireless.net)
