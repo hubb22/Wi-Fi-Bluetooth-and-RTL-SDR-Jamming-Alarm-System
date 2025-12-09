@@ -231,7 +231,7 @@ $sudo nano /home/YOUR_DEBIAN_USER/scripts/alarm.sh
 
 
 #!/bin/bash
-webserv="http://YOUR_KISMET_USER:YOUR_KISMET_PASSWORD@YOUR_KISMET_SERVER_IP:2501/alerts/all_alerts.json"
+webserv="http://YOUR_KISMET_USER:YOUR_KISMET_PASSWORD@IP_ADDRESS_OF_THIS_MACHINE:2501/alerts/all_alerts.json"
 while [ 1 = 1 ]; do
 # CHANGE YOUR_SSID BY YOUR WIFI SSID NAME AND XX:XX:XX:XX:XX:XX|YY:YY:YY:YY:YY:YY WITH THE IP ADDRESS OF ALL YOUR CLIENTS CONNECTED TO YOUR NETWORK, ADD this "|" between each IP ADDRESS, AS SHOWN BELOW:
 if curl -s "$webserv" | grep -iqE "(YOUR_SSID_NAME|XX:XX:XX:XX:XX:XX|YY:YY:YY:YY:YY:YY)"; then
