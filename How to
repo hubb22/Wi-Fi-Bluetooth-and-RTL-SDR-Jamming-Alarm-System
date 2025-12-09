@@ -23,7 +23,7 @@ You need:
 
 $sudo passwd root
 
-# Enter the new password for root account
+# ENTER THE NEW PASSWORD FOR ROOT ACCOUNT
 
 $su --login
 
