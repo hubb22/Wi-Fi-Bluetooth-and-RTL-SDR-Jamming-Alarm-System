@@ -45,6 +45,18 @@ $sudo adduser YOUR_DEBIAN_USER sudo
 
 $exit
 
+$sudo nano /etc/ssh/sshd_config
+
+
+
+DenyUsers root
+
+
+
+# Press Ctrl + X and save changes (Y)
+
+$sudo service ssh restart
+
 $sudo nano /etc/default/grub
 
 
