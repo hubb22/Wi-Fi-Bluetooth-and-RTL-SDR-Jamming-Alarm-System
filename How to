@@ -53,6 +53,8 @@ $exit
 
 $sudo nano /etc/ssh/sshd_config
 
+# ADD AT THE END:
+
 
 
 DenyUsers root
