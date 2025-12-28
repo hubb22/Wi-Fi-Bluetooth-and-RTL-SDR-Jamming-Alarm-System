@@ -23,7 +23,13 @@ You need:
 
 $su --login
 
-$apt install sudo -y
+$sudo apt update && sudo apt upgrade -y
+
+$sudo apt install sudo openssh-server -y
+
+$sudo systemctl start ssh && $sudo systemctl enable ssh
+
+$sudo systemctl status ssh
 
 $sudo nano /etc/sudoers
 
