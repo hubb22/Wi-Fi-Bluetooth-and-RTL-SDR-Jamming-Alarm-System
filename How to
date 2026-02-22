@@ -373,8 +373,8 @@ $sudo nano /etc/rc.local
 
 
 #!/bin/bash
-sleep 1 && su - YOUR_DEBIAN_USER -c "env DISPLAY=:0.0 nohup  /home/YOUR_DEBIAN_USER/scripts/kismet.sh &"
-sleep 6 && su - YOUR_DEBIAN_USER -c "env DISPLAY=:0.0 nohup  /home/YOUR_DEBIAN_USER/scripts/alarm.sh &"
+sleep 30 && su - YOUR_DEBIAN_USER -c "env DISPLAY=:0.0 nohup  /home/YOUR_DEBIAN_USER/scripts/kismet.sh &"
+sleep 40 && su - YOUR_DEBIAN_USER -c "env DISPLAY=:0.0 nohup  /home/YOUR_DEBIAN_USER/scripts/alarm.sh &"
 
 
 # Press Ctrl + X and save changes (Y)
