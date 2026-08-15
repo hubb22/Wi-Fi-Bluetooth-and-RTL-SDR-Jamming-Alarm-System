@@ -592,6 +592,10 @@ $pipx install python-kasa
 
 $pipx ensurepath --force
 
+# Since firmware 1.7.1 Build 20260515 broke authentication when the hub has no child devices, you need to fix it yourself, as python-kasa has not yet received the corresponding patch.
+# Fix here:
+# https://github.com/python-kasa/python-kasa/issues/1728#issuecomment-5301422122
+
 $sudo ufw default deny incoming
 
 $sudo ufw default deny outgoing
